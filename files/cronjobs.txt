@@ -1,0 +1,5 @@
+# Check RSS feeds via newsboat.
+0 * * * * eval "export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus"; $HOME/.local/bin/cronjobs/cj-rss
+
+# Update the clock module of dwmblocks.
+* * * * * pkill -RTMIN+6 dwmblocks
