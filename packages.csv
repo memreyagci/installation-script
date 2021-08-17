@@ -39,7 +39,7 @@ syncthing,PACMAN,"Open Source Continuous Replication / Cluster Synchronization T
 tmux,PACMAN,"Terminal multiplexer"
 torbrowser-launcher,PACMAN,"Tor Browser"
 ttf-fira-code,PACMAN,"Monospaced font with programming ligatures"
-ttf-twemoji,AUR,"Twitter emoji"
+ttf-twemoji,PACMAN,"Twitter emoji"
 udiskie,PACMAN,"Removable disk automounter using udisks"nrar,PACMAN,"The RAR uncompression program"
 unzip,PACMAN,"For extracting and viewing files in .zip archives"
 vlc,PACMAN,"Graphical video player"
