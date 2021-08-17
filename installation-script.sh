@@ -99,6 +99,10 @@ enable_services > /dev/null 2>&1 && echo -e "Services are started & enabled.\n" 
 echo "Installing suckless utilities.."
 install_suckless_utilities > /dev/null 2>&1 && echo -e "Suckless utilities are installed.\n" || error "Installing suckless utilities"
 
+# Setting cronjobs:
+echo "Setting cronjobs.."
+crontab -u $USERNAME ./files/cronjobs.txt > /dev/null 2>&1 && echo -e "Cronjobs are set.\n" || error "Setting cronjobs"
+
 # Enable tap-to-click for touchpad:
 echo "Enabling tap-to-click for touchpad.."
 sudo cp ./files/40-libinput.conf /etc/X11/xorg.conf.d/ > /dev/null 2>&1 && echo -e "Tap-to-click is enabled.\n" || error "Enabling tap-to-click for touchpad"
