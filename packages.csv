@@ -1,4 +1,5 @@
 PACKAGE,REPO,DESCRIPTION
+bitwarden,PACMAN,"Bitwarden Desktop Application"
 clipmenu,PACMAN,"Clipboard management using dmenu"
 cronie,PACMAN,"Daemon that runs specified programs at scheduled times and related tools"
 dunst,PACMAN,"Notification daemon"
