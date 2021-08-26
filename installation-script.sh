@@ -42,6 +42,7 @@ enable_services() {
         bluetooth
         cronie
         syncthing@$USERNAME
+        tlp
         usdisks2
     )
     systemctl enable --now $SERVICES
